@@ -59,7 +59,7 @@ const ZipCodeFilter=(line) => {
     const zipDigit = keyWords.ZipCode;
     const words = line.split(" ");
     words.map(word=> {
-        if (!isNaN(word) && word.length==5);
+        if (!isNaN(word) && word.length==5)
         extracredInfo.ZipCode=word;
     })
     
